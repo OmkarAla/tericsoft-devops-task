@@ -1,0 +1,12 @@
+# Never commit credentials or the SSH key pair for the instance
+*.pem
+*.ppk
+.env
+.env.*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.playwright-mcp/
